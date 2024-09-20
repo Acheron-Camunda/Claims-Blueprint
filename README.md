@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Acheron's Claims Management System is an advanced workflow designed to streamline the insurance claims process using Camunda BPMN and DMN. The system automates key aspects of claims processing, including data validation, decision-making, and customer interactions. By leveraging both BPMN for workflow management and DMN for decision-making, the system ensures a high level of accuracy, efficiency, and compliance.
+Acheron's Claims Management System is an advanced workflow designed to streamline the motor insurance claims process using Camunda BPMN and DMN. The system automates key aspects of claims processing, including data validation, decision-making, and customer interactions. By leveraging both BPMN for workflow management and DMN for decision-making, the system ensures a high level of accuracy, efficiency, and compliance.
 
 ## Key Features of the Process
 
@@ -33,7 +33,7 @@ Acheron's Claims Management System is an advanced workflow designed to streamlin
   <img src="Assets/AutoAssignmentSurveyor.png" alt="Auto Assignment of Surveyor">
 </p>
 
-4. **Documents Upload**: The garage person is expected to upload all the documents that is required for the claims to move forward. A reminder mail will be sent if the garage person fails to upload the documents wothin the stipulated time. And all these documents that are uploaded is verified by the Product Expert. Based on the results from the expert decisions and additional evaluations, a claim is either approved or rejected. Rejected claims are documented with reasons, and the customer is informed.
+4. **Documents Upload**: The garage person is expected to upload all the documents with the assistance of the claimant that is required for the claims to move forward. A reminder mail will be sent if the garage person fails to upload the documents wothin the stipulated time. And all these documents that are uploaded is verified by the Product Expert. Based on the results from the expert decisions and additional evaluations, a claim is either approved or rejected. Rejected claims are documented with reasons, and the customer is informed.
 <p align="center">
   <img src="Assets/DocumentsUpload.png" alt="Documents Upload">
 </p>
@@ -43,9 +43,9 @@ Acheron's Claims Management System is an advanced workflow designed to streamlin
   <img src="Assets/SurveyImagesEstimateUpload.png" alt="Survey Images and Estimate Upload">
 </p>
 
-6. **Inspections**: The surveyor goes through the claims estimate and conducts an inspection. The Product Expert can pitch in and aid the surveyor in this stage. 
+6. **Inspections**: The surveyor goes through the claims estimate and conducts an inspection. The Product Expert can pitch in and aid the surveyor in this stage. Once the claims is approved, the garage person owns the process. They are responsible for ordering the parts and proceed with the repar. The surveyor will have periodic visits to ensure that is repair is happening as promised.
 
-7. **Quality Check and Closure**: After the inspection is done, and there is no discrepencies arised from all the parties, claims undergo a final quality check to ensure compliance with all standards and regulations, and the claimant is informed that the vehicle is ready an the process is over.
+7. **Quality Check and Closure**: After the inspection is done, and there is no discrepencies arised from all the parties, the claims and vehicle undergo a final quality check to ensure compliance with all standards and regulations, and the claimant is informed that the vehicle is ready and the process is over, while the garage person is informed to release the vehicle.
 <p align="center">
   <img src="Assets/QualityCheckClosure.png" alt="Quality Check and Closure">
 </p>

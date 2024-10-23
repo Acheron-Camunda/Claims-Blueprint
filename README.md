@@ -28,7 +28,7 @@ Acheron's Claims Management System is an advanced workflow designed to streamlin
   <img src="Assets/CustomerNotificationDataCollection.png" alt="Customer Notification and Data Collection">
 </p>
 
-3. **Auto Assignment of Surveyor**: The claim undergoes a detailed evaluation, which follows the assignment of a surveyor to this particular claim. DMN tables play a crucial role here by providing a structured, rules-based approach to decision-making, determining the surveyor to be assigned.The user is intimated about the surveyor's assignment and the surveyor is passed all the details about the particular claim that is assigned.
+3. **Auto Assignment of Surveyor**: The claim undergoes a detailed evaluation, which follows the assignment of a surveyor to this particular claim. DMN tables play a crucial role here by providing a structured, rules-based approach to decision-making, determining the surveyor to be assigned.The user is informed about the surveyor's assignment and the surveyor is passed all the details about the particular claim that is assigned.
 <p align="center">
   <img src="Assets/AutoAssignmentSurveyor.png" alt="Auto Assignment of Surveyor">
 </p>
